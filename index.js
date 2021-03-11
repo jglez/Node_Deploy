@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 server.use('*', (req, res) => {
-  res.send(`<h1>Success!</h1>`)
+  res.send(`<h1>GREAT SCOTT, IT'S WORKING!!!</h1>`)
 })
 
 // Fallback port
